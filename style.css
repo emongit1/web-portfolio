@@ -6,14 +6,15 @@ body{
 }
 .half-width{
     width: 40%;
-      
+      float: left;
     margin-left: 5%;
     padding-left: 2% ;
 }
-.half-width img {
+.half-width img{
     width: 100%;  
 }
 .top-benner{
     border: 1px solid red;
     background-image: url(images/profile.2.png)
 }
+
