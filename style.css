@@ -1,20 +1,45 @@
 body{
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
-.name-highlight{
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    color: dimgray;
+}
+
+.orange-highlight{
     color: orange;
 }
 .half-width{
-    width: 40%;
+    width: 42%;
       float: left;
     margin-left: 5%;
     padding-left: 2% ;
 }
-.half-width img{
-    width: 100%;  
+img{
+    width: 200px;
+    height: 200px;  
+} 
+
 }
-.top-benner{
-    border: 1px solid red;
-    background-image: url(images/profile.2.png)
+section{
+    height: 500px;
+    padding-bottom: 250px;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg, lightyellow,red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+.experience-site{
+    box-shadow: 10px 10px 40px green;
 }
 
